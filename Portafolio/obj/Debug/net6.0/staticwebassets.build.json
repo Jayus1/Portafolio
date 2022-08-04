@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MJGsj+pF/d2h99vsDQ5Y3q8v50EfHbTH8iQpVlWWTsE=",
+  "Hash": "KsscXVlasNLTkNXqGw2AXtnkTOBIEKounQ9q46wu1xw=",
   "Source": "Portafolio",
   "BasePath": "_content/Portafolio",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Julio Sierra\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\Imagenes\\Prueba.jpg",
+      "SourceId": "Portafolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Julio Sierra\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\",
+      "BasePath": "_content/Portafolio",
+      "RelativePath": "Imagenes/Prueba.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagenes\\Prueba.jpg"
     },
     {
       "Identity": "C:\\Users\\Julio Sierra\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\js\\site.js",
