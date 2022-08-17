@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\julio\\source\\repos\\Portafolio\\Portafolio\\Portafolio.csproj": {}
+    "C:\\Users\\Julio Sierra\\source\\repos\\Portafolio\\Portafolio\\Portafolio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\julio\\source\\repos\\Portafolio\\Portafolio\\Portafolio.csproj": {
+    "C:\\Users\\Julio Sierra\\source\\repos\\Portafolio\\Portafolio\\Portafolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julio\\source\\repos\\Portafolio\\Portafolio\\Portafolio.csproj",
+        "projectUniqueName": "C:\\Users\\Julio Sierra\\source\\repos\\Portafolio\\Portafolio\\Portafolio.csproj",
         "projectName": "Portafolio",
-        "projectPath": "C:\\Users\\julio\\source\\repos\\Portafolio\\Portafolio\\Portafolio.csproj",
-        "packagesPath": "C:\\Users\\julio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julio\\source\\repos\\Portafolio\\Portafolio\\obj\\",
+        "projectPath": "C:\\Users\\Julio Sierra\\source\\repos\\Portafolio\\Portafolio\\Portafolio.csproj",
+        "packagesPath": "C:\\Users\\Julio Sierra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Julio Sierra\\source\\repos\\Portafolio\\Portafolio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\julio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Julio Sierra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
