@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "k15cgGqum6TArBE+6ycPMvQsdG4W+DYfAh3V6g8pdUk=",
+  "Hash": "jtcDQ4Ep3xkYFLQbvyNJFGF6m/+hvoU09fTkf2YNhwA=",
   "Source": "Portafolio",
   "BasePath": "_content/Portafolio",
   "Mode": "Default",
@@ -102,6 +102,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Julio Sierra\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\Imagenes\\amazon.png",
+      "SourceId": "Portafolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Julio Sierra\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\",
+      "BasePath": "_content/Portafolio",
+      "RelativePath": "Imagenes/amazon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagenes\\amazon.png"
+    },
+    {
       "Identity": "C:\\Users\\Julio Sierra\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\Imagenes\\dotnet.png",
       "SourceId": "Portafolio",
       "SourceType": "Discovered",
@@ -119,6 +136,23 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\dotnet.png"
     },
     {
+      "Identity": "C:\\Users\\Julio Sierra\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\Imagenes\\nyt.png",
+      "SourceId": "Portafolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Julio Sierra\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\",
+      "BasePath": "_content/Portafolio",
+      "RelativePath": "Imagenes/nyt.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagenes\\nyt.png"
+    },
+    {
       "Identity": "C:\\Users\\Julio Sierra\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\Imagenes\\Prueba.jpg",
       "SourceId": "Portafolio",
       "SourceType": "Discovered",
@@ -134,6 +168,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagenes\\Prueba.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Julio Sierra\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\Imagenes\\reddit.png",
+      "SourceId": "Portafolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Julio Sierra\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\",
+      "BasePath": "_content/Portafolio",
+      "RelativePath": "Imagenes/reddit.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagenes\\reddit.png"
+    },
+    {
+      "Identity": "C:\\Users\\Julio Sierra\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\Imagenes\\steam.png",
+      "SourceId": "Portafolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Julio Sierra\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\",
+      "BasePath": "_content/Portafolio",
+      "RelativePath": "Imagenes/steam.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagenes\\steam.png"
     },
     {
       "Identity": "C:\\Users\\Julio Sierra\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\js\\site.js",
