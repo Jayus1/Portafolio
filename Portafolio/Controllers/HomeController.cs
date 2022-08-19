@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Portafolio.Models;
+using Portafolio.Servicio;
 using System.Diagnostics;
 
 namespace Portafolio.Controllers
@@ -7,10 +8,12 @@ namespace Portafolio.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IRepositorioProyectos repositorioProyectos;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IRepositorioProyectos repositorioProyectos)
         {
             _logger = logger;
+            this.repositorioProyectos = repositorioProyectos;
         }
 
         public IActionResult Index()
@@ -22,50 +25,13 @@ namespace Portafolio.Controllers
                 Nombre = "Julio",
                 Edad = 21
             };*/
-            var proyectos= ObtenerProyecto().Take(3).ToList();
+            var repositoioProyectos = new RepositorioProyectos();
+            var proyectos= repositoioProyectos.ObtenerProyecto().Take(3).ToList();
             var modelo= new HomeIndexViewModel(){ Proyectos = proyectos};
             return View(modelo);
         }
 
-        private List<Proyecto> ObtenerProyecto()
-        {
-            return new List<Proyecto>() {
-                new Proyecto()
-            {
-
-                Titulo = "Amazon",
-                Descripcion = "E-Commerce Realista con ASP",
-                Link = "https://amazon.com",
-                ImagenURL = "/imagenes/amazon.png"
-
-            },
-                 new Proyecto()
-            {
-
-                Titulo = "New York Times",
-                Descripcion = "Pagina de noticias en React",
-                Link = "https://nytimes.com",
-                ImagenURL = "/imagenes/nyt.png"
-
-            }, new Proyecto()
-            {
-
-                Titulo = "Reddit",
-                Descripcion = "Red social para compartir en comunidades",
-                Link = "https://reddot.com",
-                ImagenURL = "/imagenes/reddit.png"
-
-            }, new Proyecto()
-            {
-
-                Titulo = "Steam",
-                Descripcion = "Tienda en linea para comprar videojuegos",
-                Link = "https://store.steampowered.com",
-                ImagenURL = "/imagenes/stram.png"
-
-            }
-            };
-         }
+        
 
         public IActionResult Privacy()
         {
