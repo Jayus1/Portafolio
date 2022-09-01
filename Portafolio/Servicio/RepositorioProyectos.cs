@@ -42,7 +42,7 @@ namespace Portafolio.Servicio
                 Titulo = "Steam",
                 Descripcion = "Tienda en linea para comprar videojuegos",
                 Link = "https://store.steampowered.com",
-                ImagenURL = "/imagenes/stram.png"
+                ImagenURL = "/imagenes/steam.png"
 
             }
             };

@@ -25,17 +25,18 @@ namespace Portafolio.Controllers
                 Nombre = "Julio",
                 Edad = 21
             };*/
-            var repositoioProyectos = new RepositorioProyectos();
-            var proyectos= repositoioProyectos.ObtenerProyecto().Take(3).ToList();
+
+            var proyectos= repositorioProyectos.ObtenerProyecto().Take(3).ToList();
             var modelo= new HomeIndexViewModel(){ Proyectos = proyectos};
             return View(modelo);
         }
 
         
 
-        public IActionResult Privacy()
+       public IActionResult Proyectos()
         {
-            return View();
+            var proyectos = repositorioProyectos.ObtenerProyecto();
+            return View(proyectos);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

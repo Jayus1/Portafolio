@@ -10,24 +10,5 @@
         <h1>Mis trabajos recientes</h1>
         <p>Aqui puedes ver algunos de mis rabajos mas recientes:</p>
     </div>
-
-    <div class="container">
-        <div class= "row row-cols-md-3 g-4">
-            @foreach(var proyecto in Model)
-            {
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="@proyecto.ImagenURL" class="card-img-top" alt="imagen proyecto"/>
-                        <div class="card-body">
-                            <h5 class="card-title">@proyecto.Titulo</h5>
-                            <p class="card-text">@proyecto.Descripcion</p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-primary" href="@proyecto.Link" target="_top" rel="alternate">Visitar</a>
-                        </div>
-                    </div>
-                </div>
-            }
-        </div>
-    </div>
 }
+<partial name="_ListadoProyectos" model="@Model">
