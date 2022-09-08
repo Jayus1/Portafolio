@@ -9,11 +9,13 @@ namespace Portafolio.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IRepositorioProyectos repositorioProyectos;
+        private readonly IServicioEmailSendGrid servicioEmailSendGrid;
 
-        public HomeController(ILogger<HomeController> logger, IRepositorioProyectos repositorioProyectos)
+        public HomeController(ILogger<HomeController> logger, IRepositorioProyectos repositorioProyectos, IServicioEmailSendGrid servicioEmailSendGrid)
         {
             _logger = logger;
             this.repositorioProyectos = repositorioProyectos;
+            this.servicioEmailSendGrid = servicioEmailSendGrid;
         }
 
         public IActionResult Index()
@@ -44,9 +46,9 @@ namespace Portafolio.Controllers
         }
 
         [HttpPost]
-        public IActionResult Contacto(ContactoViewModel contactoViewModel)
+        public IActionResult Contacto(ContactoViewModel contactoViewModel, IServicioEmailSendGrid servicioEmailSendGrid)
         {
-
+            servicioEmailSendGrid.Enviar(contactoViewModel);
             return RedirectToAction("Gracias");
         }
         public IActionResult Gracias()
